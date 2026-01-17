@@ -8,14 +8,10 @@ phases:
       - REPOSITORY_URI=336832361054.dkr.ecr.us-east-2.amazonaws.com/images/brain-taskapp
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=${COMMIT_HASH:=latest}
-      - echo Installing dependencies...
-      - npm ci
-  
+
   build:
     commands:
-      - echo Build started on `date`
-      - echo Building React application...
-      - npm run build
+      - echo Build started on $(date)
       - echo Building the Docker image...
       - docker build -t $REPOSITORY_URI:latest .
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
