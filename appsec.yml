@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+
+files:
+  - source: k8s
+    destination: /opt/brain-task/k8s
+  - source: scripts
+    destination: /opt/brain-task/scripts
+
+hooks:
+  ApplicationStart:
+    - location: scripts/deploy_to_eks.sh
+      timeout: 300
+      runas: root
