@@ -1,11 +1,11 @@
 version: 0.0
-os: Windows
+os: linux
 
 files:
   - source: Kubernetes
-    destination: C:\Users\sheer\Documents\Projects\Brain-Tasks-App\Kubernetes
+    destination: /opt/Brain-Tasks-App/Kubernetes
   - source: scripts
-    destination: C:\Users\sheer\Documents\Projects\Brain-Tasks-App\scripts
+    destination: /opt/Brain-Tasks-App/scripts
 
 hooks:
   ApplicationStart:
