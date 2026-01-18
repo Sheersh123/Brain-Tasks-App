@@ -1,4 +1,3 @@
-@"
 #!/bin/bash
 set -e
 
@@ -13,4 +12,3 @@ kubectl get pods -n default
 kubectl get svc -n default
 
 echo "Deployment complete!"
-"@ | Out-File -FilePath scripts/deploy_to_eks.sh -Encoding utf8
