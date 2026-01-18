@@ -111,6 +111,6 @@ You can view the complete deployment process and screenshots in the following do
 
 <div align="center">
 
-Made with ❤️ by the Brain Tasks Team
+Made with ❤️ by the Sheersh Sinha
 
 </div>
