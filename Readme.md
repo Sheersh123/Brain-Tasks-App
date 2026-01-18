@@ -101,6 +101,12 @@ chmod +x deploy_to_eks.sh
 ./deploy_to_eks.sh
 ```
 
+## 📄 Deployment Documentation
+
+You can view the complete deployment process and screenshots in the following document:
+
+[![Deployment Docs](https://img.shields.io/badge/View_Deployment_Docs-4285F4?style=for-the-badge&logo=google-docs&logoColor=white)](https://docs.google.com/document/d/1cl4m-OloBOGzjbBUQ6SStghXJEUfNU8bdbfXtKfaetM/edit?usp=sharing)
+
 ---
 
 <div align="center">
