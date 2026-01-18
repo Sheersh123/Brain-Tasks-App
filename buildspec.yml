@@ -33,4 +33,4 @@ artifacts:
     - imagedefinitions.json
     - appspec.yml
     - scripts/**/*
-    - k8s/**/*
+    - Kubernetes/**/*
